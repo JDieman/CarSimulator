@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5B894E223ED95D00C742A1 /* RealisticLocationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B894D223ED95D00C742A1 /* RealisticLocationAnimator.swift */; };
+		0A5B8950223EDA2000C742A1 /* MovingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B894F223EDA2000C742A1 /* MovingAnimator.swift */; };
+		0A5B8952223EDA3B00C742A1 /* LinearMovingAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8951223EDA3B00C742A1 /* LinearMovingAnimator.swift */; };
+		0A5B8957223EDA9C00C742A1 /* HardRotationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8956223EDA9C00C742A1 /* HardRotationAnimator.swift */; };
+		0A5B895A223EDB4400C742A1 /* CGPointHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8959223EDB4400C742A1 /* CGPointHelper.swift */; };
+		0A5B895C223EDBB200C742A1 /* SimpleRotationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B895B223EDBB200C742A1 /* SimpleRotationAnimator.swift */; };
+		0A5B895E223EDBD600C742A1 /* RotationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B895D223EDBD600C742A1 /* RotationAnimator.swift */; };
+		0A5B8960223EDC0F00C742A1 /* LinearLocationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B895F223EDC0F00C742A1 /* LinearLocationAnimator.swift */; };
+		0A5B8962223EDC3700C742A1 /* BaseLocationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8961223EDC3700C742A1 /* BaseLocationAnimator.swift */; };
+		0A5B8964223EDC6200C742A1 /* LocationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8963223EDC6200C742A1 /* LocationAnimator.swift */; };
+		0A5B8967223EDD0D00C742A1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8966223EDD0D00C742A1 /* Location.swift */; };
+		0A5B8969223EDD3600C742A1 /* LocationProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8968223EDD3600C742A1 /* LocationProperties.swift */; };
+		0A5B896B223EDD5600C742A1 /* CarLocationProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B896A223EDD5600C742A1 /* CarLocationProperties.swift */; };
+		0A5B896D223EDD6C00C742A1 /* TrajectoryProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B896C223EDD6C00C742A1 /* TrajectoryProperties.swift */; };
+		0A5B896F223EDDC300C742A1 /* RotationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B896E223EDDC300C742A1 /* RotationDirection.swift */; };
+		0A5B8972223EDE3C00C742A1 /* CheckersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8971223EDE3C00C742A1 /* CheckersView.swift */; };
+		0A5B8974223EDFC400C742A1 /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8973223EDFC400C742A1 /* WheelView.swift */; };
+		0A5B8976223EE0B500C742A1 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8975223EE0B500C742A1 /* HeadView.swift */; };
+		0A5B8978223EE17300C742A1 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8977223EE17300C742A1 /* TargetView.swift */; };
+		0A5B897A223EE87A00C742A1 /* AnimatorsSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8979223EE87A00C742A1 /* AnimatorsSegmentedControl.swift */; };
+		0A5B897D223EF19D00C742A1 /* CALayerHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B897C223EF19D00C742A1 /* CALayerHelperTests.swift */; };
+		0A5B897F223EF43800C742A1 /* CGPointHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B897E223EF43800C742A1 /* CGPointHelperTests.swift */; };
+		0A5B8981223EF79300C742A1 /* UIViewHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8980223EF79300C742A1 /* UIViewHelperTests.swift */; };
+		0A5B8985223EFA3300C742A1 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8984223EFA3300C742A1 /* ViewControllerViewModel.swift */; };
+		0A5B8989223EFBC700C742A1 /* TransportAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B8988223EFBC700C742A1 /* TransportAnimationViewModel.swift */; };
+		0A5B898B223EFC2300C742A1 /* TransportAnimationVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5B898A223EFC2300C742A1 /* TransportAnimationVCDelegate.swift */; };
 		0A81A622223A4A3A006AA0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A621223A4A3A006AA0A5 /* AppDelegate.swift */; };
 		0A81A624223A4A3A006AA0A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A623223A4A3A006AA0A5 /* ViewController.swift */; };
 		0A81A627223A4A3A006AA0A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A81A625223A4A3A006AA0A5 /* Main.storyboard */; };
 		0A81A629223A4A3B006AA0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81A628223A4A3B006AA0A5 /* Assets.xcassets */; };
 		0A81A62C223A4A3B006AA0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A81A62A223A4A3B006AA0A5 /* LaunchScreen.storyboard */; };
-		0A81A637223A4A3B006AA0A5 /* CarSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A636223A4A3B006AA0A5 /* CarSimulatorTests.swift */; };
+		0A81A643223A4AA4006AA0A5 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A641223A4AA3006AA0A5 /* CarView.swift */; };
+		0A81A644223A4AA4006AA0A5 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A642223A4AA4006AA0A5 /* Transport.swift */; };
+		0A81A647223A4AFA006AA0A5 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A646223A4AFA006AA0A5 /* UIViewHelper.swift */; };
+		0A81A649223A4B15006AA0A5 /* CALayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A648223A4B15006AA0A5 /* CALayerHelper.swift */; };
+		0A81A64C223A4BC3006AA0A5 /* LocationAnimatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A64B223A4BC3006AA0A5 /* LocationAnimatorFactory.swift */; };
+		0A81A64E223A4BE2006AA0A5 /* TransportFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81A64D223A4BE2006AA0A5 /* TransportFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +57,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5B894D223ED95D00C742A1 /* RealisticLocationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealisticLocationAnimator.swift; sourceTree = "<group>"; };
+		0A5B894F223EDA2000C742A1 /* MovingAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAnimator.swift; sourceTree = "<group>"; };
+		0A5B8951223EDA3B00C742A1 /* LinearMovingAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearMovingAnimator.swift; sourceTree = "<group>"; };
+		0A5B8956223EDA9C00C742A1 /* HardRotationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardRotationAnimator.swift; sourceTree = "<group>"; };
+		0A5B8959223EDB4400C742A1 /* CGPointHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointHelper.swift; sourceTree = "<group>"; };
+		0A5B895B223EDBB200C742A1 /* SimpleRotationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRotationAnimator.swift; sourceTree = "<group>"; };
+		0A5B895D223EDBD600C742A1 /* RotationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimator.swift; sourceTree = "<group>"; };
+		0A5B895F223EDC0F00C742A1 /* LinearLocationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLocationAnimator.swift; sourceTree = "<group>"; };
+		0A5B8961223EDC3700C742A1 /* BaseLocationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLocationAnimator.swift; sourceTree = "<group>"; };
+		0A5B8963223EDC6200C742A1 /* LocationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnimator.swift; sourceTree = "<group>"; };
+		0A5B8966223EDD0D00C742A1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0A5B8968223EDD3600C742A1 /* LocationProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProperties.swift; sourceTree = "<group>"; };
+		0A5B896A223EDD5600C742A1 /* CarLocationProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLocationProperties.swift; sourceTree = "<group>"; };
+		0A5B896C223EDD6C00C742A1 /* TrajectoryProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryProperties.swift; sourceTree = "<group>"; };
+		0A5B896E223EDDC300C742A1 /* RotationDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationDirection.swift; sourceTree = "<group>"; };
+		0A5B8971223EDE3C00C742A1 /* CheckersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersView.swift; sourceTree = "<group>"; };
+		0A5B8973223EDFC400C742A1 /* WheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
+		0A5B8975223EE0B500C742A1 /* HeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		0A5B8977223EE17300C742A1 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
+		0A5B8979223EE87A00C742A1 /* AnimatorsSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorsSegmentedControl.swift; sourceTree = "<group>"; };
+		0A5B897C223EF19D00C742A1 /* CALayerHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerHelperTests.swift; sourceTree = "<group>"; };
+		0A5B897E223EF43800C742A1 /* CGPointHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointHelperTests.swift; sourceTree = "<group>"; };
+		0A5B8980223EF79300C742A1 /* UIViewHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelperTests.swift; sourceTree = "<group>"; };
+		0A5B8984223EFA3300C742A1 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		0A5B8988223EFBC700C742A1 /* TransportAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportAnimationViewModel.swift; sourceTree = "<group>"; };
+		0A5B898A223EFC2300C742A1 /* TransportAnimationVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportAnimationVCDelegate.swift; sourceTree = "<group>"; };
 		0A81A61E223A4A3A006AA0A5 /* CarSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A81A621223A4A3A006AA0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A81A623223A4A3A006AA0A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +91,13 @@
 		0A81A62B223A4A3B006AA0A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A81A62D223A4A3B006AA0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A81A632223A4A3B006AA0A5 /* CarSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A81A636223A4A3B006AA0A5 /* CarSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSimulatorTests.swift; sourceTree = "<group>"; };
 		0A81A638223A4A3B006AA0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A81A641223A4AA3006AA0A5 /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		0A81A642223A4AA4006AA0A5 /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		0A81A646223A4AFA006AA0A5 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		0A81A648223A4B15006AA0A5 /* CALayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerHelper.swift; sourceTree = "<group>"; };
+		0A81A64B223A4BC3006AA0A5 /* LocationAnimatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnimatorFactory.swift; sourceTree = "<group>"; };
+		0A81A64D223A4BE2006AA0A5 /* TransportFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +118,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5B894C223ED94D00C742A1 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B8953223EDA4300C742A1 /* Location */,
+				0A5B8954223EDA4B00C742A1 /* Rotation */,
+				0A5B8955223EDA5200C742A1 /* Moving */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		0A5B8953223EDA4300C742A1 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B8963223EDC6200C742A1 /* LocationAnimator.swift */,
+				0A5B8961223EDC3700C742A1 /* BaseLocationAnimator.swift */,
+				0A5B895F223EDC0F00C742A1 /* LinearLocationAnimator.swift */,
+				0A5B894D223ED95D00C742A1 /* RealisticLocationAnimator.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		0A5B8954223EDA4B00C742A1 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B895D223EDBD600C742A1 /* RotationAnimator.swift */,
+				0A5B895B223EDBB200C742A1 /* SimpleRotationAnimator.swift */,
+				0A5B8956223EDA9C00C742A1 /* HardRotationAnimator.swift */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		0A5B8955223EDA5200C742A1 /* Moving */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B894F223EDA2000C742A1 /* MovingAnimator.swift */,
+				0A5B8951223EDA3B00C742A1 /* LinearMovingAnimator.swift */,
+			);
+			path = Moving;
+			sourceTree = "<group>";
+		};
+		0A5B8965223EDCE600C742A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A81A642223A4AA4006AA0A5 /* Transport.swift */,
+				0A5B8966223EDD0D00C742A1 /* Location.swift */,
+				0A5B8968223EDD3600C742A1 /* LocationProperties.swift */,
+				0A5B896A223EDD5600C742A1 /* CarLocationProperties.swift */,
+				0A5B896C223EDD6C00C742A1 /* TrajectoryProperties.swift */,
+				0A5B896E223EDDC300C742A1 /* RotationDirection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A5B8970223EDE0E00C742A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A81A641223A4AA3006AA0A5 /* CarView.swift */,
+				0A5B8971223EDE3C00C742A1 /* CheckersView.swift */,
+				0A5B8973223EDFC400C742A1 /* WheelView.swift */,
+				0A5B8975223EE0B500C742A1 /* HeadView.swift */,
+				0A5B8977223EE17300C742A1 /* TargetView.swift */,
+				0A5B8979223EE87A00C742A1 /* AnimatorsSegmentedControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A5B897B223EF15700C742A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B8980223EF79300C742A1 /* UIViewHelperTests.swift */,
+				0A5B897C223EF19D00C742A1 /* CALayerHelperTests.swift */,
+				0A5B897E223EF43800C742A1 /* CGPointHelperTests.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A5B8986223EFAA300C742A1 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				0A81A625223A4A3A006AA0A5 /* Main.storyboard */,
+				0A81A623223A4A3A006AA0A5 /* ViewController.swift */,
+				0A5B8984223EFA3300C742A1 /* ViewControllerViewModel.swift */,
+				0A5B8988223EFBC700C742A1 /* TransportAnimationViewModel.swift */,
+				0A5B898A223EFC2300C742A1 /* TransportAnimationVCDelegate.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		0A5B8987223EFAB700C742A1 /* GameModules */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B8986223EFAA300C742A1 /* MainModule */,
+			);
+			path = GameModules;
+			sourceTree = "<group>";
+		};
 		0A81A615223A4A3A006AA0A5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +235,13 @@
 		0A81A620223A4A3A006AA0A5 /* CarSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				0A81A645223A4AE5006AA0A5 /* Helpers */,
+				0A5B8965223EDCE600C742A1 /* Models */,
+				0A5B894C223ED94D00C742A1 /* Animators */,
+				0A81A64A223A4BA5006AA0A5 /* Factories */,
+				0A5B8970223EDE0E00C742A1 /* Views */,
+				0A5B8987223EFAB700C742A1 /* GameModules */,
 				0A81A621223A4A3A006AA0A5 /* AppDelegate.swift */,
-				0A81A623223A4A3A006AA0A5 /* ViewController.swift */,
-				0A81A625223A4A3A006AA0A5 /* Main.storyboard */,
 				0A81A628223A4A3B006AA0A5 /* Assets.xcassets */,
 				0A81A62A223A4A3B006AA0A5 /* LaunchScreen.storyboard */,
 				0A81A62D223A4A3B006AA0A5 /* Info.plist */,
@@ -90,10 +252,29 @@
 		0A81A635223A4A3B006AA0A5 /* CarSimulatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A81A636223A4A3B006AA0A5 /* CarSimulatorTests.swift */,
+				0A5B897B223EF15700C742A1 /* Helpers */,
 				0A81A638223A4A3B006AA0A5 /* Info.plist */,
 			);
 			path = CarSimulatorTests;
+			sourceTree = "<group>";
+		};
+		0A81A645223A4AE5006AA0A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A81A646223A4AFA006AA0A5 /* UIViewHelper.swift */,
+				0A81A648223A4B15006AA0A5 /* CALayerHelper.swift */,
+				0A5B8959223EDB4400C742A1 /* CGPointHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A81A64A223A4BA5006AA0A5 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				0A81A64B223A4BC3006AA0A5 /* LocationAnimatorFactory.swift */,
+				0A81A64D223A4BE2006AA0A5 /* TransportFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +378,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A81A647223A4AFA006AA0A5 /* UIViewHelper.swift in Sources */,
+				0A5B8989223EFBC700C742A1 /* TransportAnimationViewModel.swift in Sources */,
+				0A5B895A223EDB4400C742A1 /* CGPointHelper.swift in Sources */,
+				0A5B8962223EDC3700C742A1 /* BaseLocationAnimator.swift in Sources */,
+				0A81A64C223A4BC3006AA0A5 /* LocationAnimatorFactory.swift in Sources */,
+				0A5B8952223EDA3B00C742A1 /* LinearMovingAnimator.swift in Sources */,
+				0A5B896B223EDD5600C742A1 /* CarLocationProperties.swift in Sources */,
+				0A81A649223A4B15006AA0A5 /* CALayerHelper.swift in Sources */,
 				0A81A624223A4A3A006AA0A5 /* ViewController.swift in Sources */,
+				0A5B8985223EFA3300C742A1 /* ViewControllerViewModel.swift in Sources */,
+				0A5B8978223EE17300C742A1 /* TargetView.swift in Sources */,
+				0A5B898B223EFC2300C742A1 /* TransportAnimationVCDelegate.swift in Sources */,
+				0A5B8974223EDFC400C742A1 /* WheelView.swift in Sources */,
+				0A5B8972223EDE3C00C742A1 /* CheckersView.swift in Sources */,
+				0A5B8964223EDC6200C742A1 /* LocationAnimator.swift in Sources */,
+				0A5B896F223EDDC300C742A1 /* RotationDirection.swift in Sources */,
+				0A5B8960223EDC0F00C742A1 /* LinearLocationAnimator.swift in Sources */,
+				0A5B8969223EDD3600C742A1 /* LocationProperties.swift in Sources */,
+				0A5B895C223EDBB200C742A1 /* SimpleRotationAnimator.swift in Sources */,
+				0A5B895E223EDBD600C742A1 /* RotationAnimator.swift in Sources */,
 				0A81A622223A4A3A006AA0A5 /* AppDelegate.swift in Sources */,
+				0A81A644223A4AA4006AA0A5 /* Transport.swift in Sources */,
+				0A5B8976223EE0B500C742A1 /* HeadView.swift in Sources */,
+				0A5B896D223EDD6C00C742A1 /* TrajectoryProperties.swift in Sources */,
+				0A5B897A223EE87A00C742A1 /* AnimatorsSegmentedControl.swift in Sources */,
+				0A5B8957223EDA9C00C742A1 /* HardRotationAnimator.swift in Sources */,
+				0A5B8967223EDD0D00C742A1 /* Location.swift in Sources */,
+				0A5B8950223EDA2000C742A1 /* MovingAnimator.swift in Sources */,
+				0A5B894E223ED95D00C742A1 /* RealisticLocationAnimator.swift in Sources */,
+				0A81A64E223A4BE2006AA0A5 /* TransportFactory.swift in Sources */,
+				0A81A643223A4AA4006AA0A5 /* CarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A81A637223A4A3B006AA0A5 /* CarSimulatorTests.swift in Sources */,
+				0A5B897F223EF43800C742A1 /* CGPointHelperTests.swift in Sources */,
+				0A5B8981223EF79300C742A1 /* UIViewHelperTests.swift in Sources */,
+				0A5B897D223EF19D00C742A1 /* CALayerHelperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
